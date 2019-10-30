@@ -1,0 +1,28 @@
+$paleBlue: #c1e9ee;
+$racingGreen: #29634f;
+$ivory: #f4f3ec;
+$pastelPink: #fadfe5;
+$pastelRed: #ed4850;
+
+.duo1 {
+  color: $paleBlue;
+  background: $racingGreen;
+  .link {
+    color: $racingGreen;
+    background: $paleBlue;
+  }
+  *::selection {
+    background: lime;
+  }
+}
+.duo2 {
+  background: $pastelPink;
+  color: $pastelRed;
+  .link {
+    color: $pastelRed;
+    background: #f4f3ec;
+  }
+  *::selection {
+    background: purple;
+  }
+}
